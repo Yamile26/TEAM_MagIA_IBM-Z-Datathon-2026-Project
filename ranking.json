@@ -1,0 +1,98 @@
+[
+  {
+    "file": "lab/hospital_demo/historias.py",
+    "line": 7,
+    "algorithm": "SHA-1",
+    "quantum_vulnerable": false,
+    "weak_today": true,
+    "snippet": "return hashlib.sha1(doc).hexdigest()",
+    "data_life": 30,
+    "migration_years": 1,
+    "urgency": 130,
+    "reason": "roto o debil HOY"
+  },
+  {
+    "file": "lab/hospital_demo/historias.py",
+    "line": 8,
+    "algorithm": "DES",
+    "quantum_vulnerable": false,
+    "weak_today": true,
+    "snippet": "cipher = DES.new(b\"8bytekey\", DES.MODE_ECB)",
+    "data_life": 30,
+    "migration_years": 1,
+    "urgency": 130,
+    "reason": "roto o debil HOY"
+  },
+  {
+    "file": "lab/hospital_demo/pacientes_api.py",
+    "line": 6,
+    "algorithm": "MD5",
+    "quantum_vulnerable": false,
+    "weak_today": true,
+    "snippet": "token = hashlib.md5(b\"sesion\").hexdigest()",
+    "data_life": 20,
+    "migration_years": 1,
+    "urgency": 120,
+    "reason": "roto o debil HOY"
+  },
+  {
+    "file": "lab/hospital_demo/nginx.conf",
+    "line": 3,
+    "algorithm": "TLS<1.2",
+    "quantum_vulnerable": false,
+    "weak_today": true,
+    "snippet": "ssl_protocols TLSv1 TLSv1.1 TLSv1.2;",
+    "data_life": 5,
+    "migration_years": 2,
+    "urgency": 105,
+    "reason": "roto o debil HOY"
+  },
+  {
+    "file": "lab/hospital_demo/nginx.conf",
+    "line": 4,
+    "algorithm": "RC4",
+    "quantum_vulnerable": false,
+    "weak_today": true,
+    "snippet": "ssl_ciphers RC4:AES128-SHA;",
+    "data_life": 5,
+    "migration_years": 1,
+    "urgency": 105,
+    "reason": "roto o debil HOY"
+  },
+  {
+    "file": "lab/hospital_demo/historias.py",
+    "line": 5,
+    "algorithm": "RSA",
+    "quantum_vulnerable": true,
+    "weak_today": false,
+    "snippet": "key = RSA.generate(2048)  # protege historias clinicas",
+    "data_life": 30,
+    "migration_years": 3,
+    "urgency": 23,
+    "reason": "Mosca: 30+3 > 10"
+  },
+  {
+    "file": "lab/hospital_demo/pacientes_api.py",
+    "line": 4,
+    "algorithm": "ECDSA/ECC",
+    "quantum_vulnerable": true,
+    "weak_today": false,
+    "snippet": "priv = ec.generate_private_key(ec.SECP256R1())",
+    "data_life": 20,
+    "migration_years": 3,
+    "urgency": 13,
+    "reason": "Mosca: 20+3 > 10"
+  },
+  {
+    "file": "lab/hospital_demo/pacientes_api.py",
+    "line": 5,
+    "algorithm": "RSA",
+    "quantum_vulnerable": true,
+    "weak_today": false,
+    "snippet": "rsa_key = rsa.generate_private_key(public_exponent=65537, key_size=1024)",
+    "data_life": 20,
+    "migration_years": 3,
+    "urgency": 13,
+    "reason": "Mosca: 20+3 > 10"
+  }
+]

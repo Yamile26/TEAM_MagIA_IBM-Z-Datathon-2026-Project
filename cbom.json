@@ -1,0 +1,221 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "Hospital Regional Demo"
+    }
+  },
+  "components": [
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "asset-1",
+      "name": "TLS<1.2",
+      "cryptoProperties": {
+        "assetType": "algorithm"
+      },
+      "properties": [
+        {
+          "name": "quantum_vulnerable",
+          "value": "False"
+        },
+        {
+          "name": "weak_today",
+          "value": "True"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "lab/hospital_demo/nginx.conf",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "asset-2",
+      "name": "RC4",
+      "cryptoProperties": {
+        "assetType": "algorithm"
+      },
+      "properties": [
+        {
+          "name": "quantum_vulnerable",
+          "value": "False"
+        },
+        {
+          "name": "weak_today",
+          "value": "True"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "lab/hospital_demo/nginx.conf",
+            "line": 4
+          }
+        ]
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "asset-3",
+      "name": "RSA",
+      "cryptoProperties": {
+        "assetType": "algorithm"
+      },
+      "properties": [
+        {
+          "name": "quantum_vulnerable",
+          "value": "True"
+        },
+        {
+          "name": "weak_today",
+          "value": "False"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "lab/hospital_demo/historias.py",
+            "line": 5
+          }
+        ]
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "asset-4",
+      "name": "SHA-1",
+      "cryptoProperties": {
+        "assetType": "algorithm"
+      },
+      "properties": [
+        {
+          "name": "quantum_vulnerable",
+          "value": "False"
+        },
+        {
+          "name": "weak_today",
+          "value": "True"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "lab/hospital_demo/historias.py",
+            "line": 7
+          }
+        ]
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "asset-5",
+      "name": "DES",
+      "cryptoProperties": {
+        "assetType": "algorithm"
+      },
+      "properties": [
+        {
+          "name": "quantum_vulnerable",
+          "value": "False"
+        },
+        {
+          "name": "weak_today",
+          "value": "True"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "lab/hospital_demo/historias.py",
+            "line": 8
+          }
+        ]
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "asset-6",
+      "name": "ECDSA/ECC",
+      "cryptoProperties": {
+        "assetType": "algorithm"
+      },
+      "properties": [
+        {
+          "name": "quantum_vulnerable",
+          "value": "True"
+        },
+        {
+          "name": "weak_today",
+          "value": "False"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "lab/hospital_demo/pacientes_api.py",
+            "line": 4
+          }
+        ]
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "asset-7",
+      "name": "RSA",
+      "cryptoProperties": {
+        "assetType": "algorithm"
+      },
+      "properties": [
+        {
+          "name": "quantum_vulnerable",
+          "value": "True"
+        },
+        {
+          "name": "weak_today",
+          "value": "False"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "lab/hospital_demo/pacientes_api.py",
+            "line": 5
+          }
+        ]
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "asset-8",
+      "name": "MD5",
+      "cryptoProperties": {
+        "assetType": "algorithm"
+      },
+      "properties": [
+        {
+          "name": "quantum_vulnerable",
+          "value": "False"
+        },
+        {
+          "name": "weak_today",
+          "value": "True"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "lab/hospital_demo/pacientes_api.py",
+            "line": 6
+          }
+        ]
+      }
+    }
+  ]
+}
