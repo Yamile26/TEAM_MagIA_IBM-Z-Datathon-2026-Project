@@ -1,0 +1,12 @@
+### Handshake, 50 intentos, solo exitosos
+X25519: 6.4 ms por intento, 50/50 exitosos
+X25519MLKEM768: 6.5 ms por intento, 50/50 exitosos
+                              sign    verify    sign/s verify/s
+ 256 bits ecdsa (nistp256)   0.0000s   0.0000s  63973.6  21816.1
+                               keygen    encaps    decaps keygens/s  encaps/s  decaps/s
+                    rsa2048 0.114615s 0.000049s 0.001850s       8.7   20608.1     540.4
+                               keygen     signs    verify keygens/s    sign/s  verify/s
+                    rsa2048 0.138696s 0.001850s 0.000047s       7.2     540.5   21397.3
+### Firma, 100 repeticiones (incluye arranque de openssl)
+ECDSA P-256: 3.3 ms por firma
+ML-DSA-65: 5.0 ms por firma
