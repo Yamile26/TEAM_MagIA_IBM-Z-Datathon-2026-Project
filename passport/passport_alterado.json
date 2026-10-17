@@ -1,0 +1,25 @@
+{
+  "institution": "Hospitaz Regional Demo (ficticio)",
+  "readiness_level": 3,
+  "note": "Nivel definido por el equipo, no es certificacion legal ni estandar oficial",
+  "assets_found": 8,
+  "top_urgent": [
+    {
+      "algorithm": "SHA-1",
+      "file": "lab/hospital_demo/historias.py",
+      "urgency": 130
+    },
+    {
+      "algorithm": "DES",
+      "file": "lab/hospital_demo/historias.py",
+      "urgency": 130
+    },
+    {
+      "algorithm": "MD5",
+      "file": "lab/hospital_demo/pacientes_api.py",
+      "urgency": 120
+    }
+  ],
+  "issued": "2026-10-17T11:08:59.709221+00:00",
+  "signature_algorithm": "ML-DSA-65"
+}
