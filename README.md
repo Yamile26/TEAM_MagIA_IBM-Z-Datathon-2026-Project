@@ -56,3 +56,6 @@ Mismo modelo (Granite 4.0 H 350M base), 3 activos x 10 repeticiones x 3 candidat
 - [IBM Granite](https://huggingface.co/ibm-granite) (modelo 4.0 H 350M base)
 - [PyTorch](https://github.com/pytorch/pytorch) (versión CPU) y [Docker](https://github.com/moby/moby)
 - Datos: ninguno externo, todo sintético y generado durante el evento
+
+## Prueba con código abierto real
+El escáner se corrió sobre dos repositorios públicos (requests y paramiko): 107 archivos en 0.26 s (~2.4 ms por archivo en esta muestra), 80 candidatos (MD5, SHA-1, ECDSA, RSA). Son coincidencias de patrones, no vulnerabilidades confirmadas: muchas reflejan compatibilidad con protocolos antiguos. En paramiko solo se detectó 1 uso de RSA, lo que indica que las reglas pierden nombres de API distintos (falsos negativos); es lo que motiva el detector ML.
