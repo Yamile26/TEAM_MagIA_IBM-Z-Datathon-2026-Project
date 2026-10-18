@@ -49,4 +49,4 @@ python3 dashboard/app.py                    # panel (o en contenedor: dashboard/
 Código escrito durante el hackathon. El Hospital Regional Demo es ficticio.
 
 ## Experimento: Granite con y sin ejemplos
-Mismo modelo (Granite 4.0 H 350M base), 3 activos x 10 repeticiones x 3 candidatos. Con 2 ejemplos en el prompt: 29/30 válidas al primer intento y 30/30 con validación. Sin ejemplos: 0/30, y las 30 pruebas cayeron a la plantilla. El validador (handshake TLS real) rechazó todo lo inválido. Muestra pequeña y un solo modelo: no es una comparación general de LLMs.
+Mismo modelo (Granite 4.0 H 350M base), 3 activos x 10 repeticiones x 3 candidatos. Con 2 ejemplos en el prompt: 29/30 válidas al primer intento y 30/30 con validación. Sin ejemplos: 0/30, y las 30 pruebas cayeron a la plantilla. Las respuestas sin ejemplos no eran nombres de grupo (el modelo contestó versiones de TLS y tamaños de clave), así que las frenó el filtro de formato antes de llegar a la prueba TLS; la prueba TLS real (handshake) es la segunda capa y rechazó un grupo inexistente en la demo de plan.py. Muestra pequeña y un solo modelo: no es una comparación general de LLMs.
