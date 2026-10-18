@@ -50,3 +50,9 @@ Código escrito durante el hackathon. El Hospital Regional Demo es ficticio.
 
 ## Experimento: Granite con y sin ejemplos
 Mismo modelo (Granite 4.0 H 350M base), 3 activos x 10 repeticiones x 3 candidatos. Con 2 ejemplos en el prompt: 29/30 válidas al primer intento y 30/30 con validación. Sin ejemplos: 0/30, y las 30 pruebas cayeron a la plantilla. Las respuestas sin ejemplos no eran nombres de grupo (el modelo contestó versiones de TLS y tamaños de clave), así que las frenó el filtro de formato antes de llegar a la prueba TLS; la prueba TLS real (handshake) es la segunda capa y rechazó un grupo inexistente en la demo de plan.py. Muestra pequeña y un solo modelo: no es una comparación general de LLMs.
+
+## Librerías y modelos adicionales
+- [llama.cpp](https://github.com/ggml-org/llama.cpp) y [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) (ejecución local de Granite)
+- [IBM Granite](https://huggingface.co/ibm-granite) (modelo 4.0 H 350M base)
+- [PyTorch](https://github.com/pytorch/pytorch) (versión CPU) y [Docker](https://github.com/moby/moby)
+- Datos: ninguno externo, todo sintético y generado durante el evento
