@@ -1,0 +1,31 @@
+{
+  "solo regex": {
+    "precision": 1.0,
+    "recall": 0.54
+  },
+  "solo PyTorch (umbral 0.5)": {
+    "precision": 0.613,
+    "recall": 0.812
+  },
+  "regex + PyTorch (umbral 0.5)": {
+    "precision": 0.627,
+    "recall": 0.863
+  },
+  "solo PyTorch (umbral 0.75)": {
+    "precision": 0.58,
+    "recall": 0.708
+  },
+  "regex + PyTorch (umbral 0.75)": {
+    "precision": 0.62,
+    "recall": 0.839
+  },
+  "solo scikit-learn": {
+    "precision": 0.608,
+    "recall": 0.797
+  },
+  "regex + scikit-learn": {
+    "precision": 0.624,
+    "recall": 0.853
+  },
+  "torch_version": "2.11.0+cpu"
+}
