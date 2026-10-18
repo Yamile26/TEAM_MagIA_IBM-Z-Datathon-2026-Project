@@ -55,7 +55,7 @@ All numbers were measured on the instance. Timings that include starting the `op
 | Granite proposals, prompt with 2 examples | 29/30 valid at first attempt, 30/30 after validation |
 | Granite proposals, prompt without examples | 0/30 valid; all 30 fell back to the template |
 | Detector on a synthetic test with unseen syntax (scikit-learn) | regex only: precision 1.00, recall 0.54. regex + ML: precision 0.62, recall 0.85 |
-| Detector (PyTorch) | Same test set, 5 seeds; results in `evidence/torch_results.json` |
+| Detector (PyTorch), mean of 5 seeds, same synthetic test set | PyTorch alone (threshold 0.5): precision 0.61, recall 0.81. Regex + PyTorch: precision 0.63, recall 0.86. Details in `evidence/torch_results.json` |
 | Scanner on real open-source code | requests + paramiko: 107 files in 0.293 s (about 2.7 ms per file in this sample), 80 candidates |
 
 **About the Granite experiment:** 3 assets x 10 repetitions x 3 candidates, one small base model. Without examples the model did not answer the question (it returned TLS versions and key sizes), so the format filter stopped those outputs before the TLS test. The TLS handshake is the second layer, and in the `planner/plan.py` demo it rejects a non-existent group. The two-sentence summary Granite writes restates the facts it is given; we do not present it as reasoning.
