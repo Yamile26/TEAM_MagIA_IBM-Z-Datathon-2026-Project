@@ -114,8 +114,8 @@ Dashboard in a container: `dashboard/Containerfile` (Podman). OpenSSL 3.5.0 is b
 
 All solution code was written during the hackathon (the commit history shows it). We completed the two provided lab notebooks on the LinuxONE Community Cloud to learn the platform:
 
-- **Predictive and Generative AI for Loan Decisioning** (XGBoost + Granite on llama.cpp) — screenshots: [start](evidence/labinicio1.png), [final output](evidence/labfinal1.png).
-- **Fraud_LSTM_Keras_TF** (credit card fraud detection with an LSTM in TensorFlow/Keras) — screenshots: [start](evidence/labinicio2.png), [final output](evidence/labfinal2.png).
+- **Predictive and Generative AI for Loan Decisioning** (XGBoost + Granite on llama.cpp) — screenshots: [start](evidence/labinicio1.png), [final output](evidence/labfin1.png).
+- **Fraud_LSTM_Keras_TF** (credit card fraud detection with an LSTM in TensorFlow/Keras) — screenshots: [start](evidence/labinicio2.png), [final output](evidence/labfin2.png).
 
 No lab code was copied into this repository, and our scanner, risk ranking, planner, validator and detectors are original.
 
