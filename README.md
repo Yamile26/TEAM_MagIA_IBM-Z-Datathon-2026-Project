@@ -112,7 +112,12 @@ Dashboard in a container: `dashboard/Containerfile` (Podman). OpenSSL 3.5.0 is b
 
 ## 9. Originality
 
-All solution code was written during the hackathon (the commit history shows it). We ran the provided lab notebook (Loan Approval: predictive AI + generative AI with Granite on llama.cpp) to learn the platform. No lab code was copied into this repository, and our planner, validator and detectors are original.
+All solution code was written during the hackathon (the commit history shows it). We completed the two provided lab notebooks on the LinuxONE Community Cloud to learn the platform:
+
+- **Predictive and Generative AI for Loan Decisioning** (XGBoost + Granite on llama.cpp) — screenshots: [start](evidence/screenshots/07_lab1_inicio.png), [final output](evidence/screenshots/07_lab1_final.png).
+- **Fraud_LSTM_Keras_TF** (credit card fraud detection with an LSTM in TensorFlow/Keras) — screenshots: [start](evidence/screenshots/08_lab2_inicio.png), [final output](evidence/screenshots/08_lab2_final.png).
+
+No lab code was copied into this repository, and our scanner, risk ranking, planner, validator and detectors are original.
 
 ## 10. Open-source resources and standards
 
