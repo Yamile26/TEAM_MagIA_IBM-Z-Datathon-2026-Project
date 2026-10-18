@@ -1,5 +1,3 @@
-# Team MagIA Datathon 2026 Project: Pasaporte Cuántico
-
 # Pasaporte Cuántico — Team MagIA_IBM Z Datathon 2026 Project
 
 **Theme 2: AI Secured, Innovation Without Exposure**
