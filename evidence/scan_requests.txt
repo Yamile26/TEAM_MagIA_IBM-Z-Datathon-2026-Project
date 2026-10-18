@@ -1,0 +1,15 @@
+/tmp/requests/tests/test_requests.py:85  MD5
+/tmp/requests/src/requests/auth.py:170  MD5
+/tmp/requests/src/requests/auth.py:174  MD5
+/tmp/requests/src/requests/auth.py:176  MD5
+/tmp/requests/src/requests/auth.py:179  MD5
+/tmp/requests/src/requests/auth.py:181  MD5
+/tmp/requests/src/requests/auth.py:187  SHA-1
+/tmp/requests/src/requests/auth.py:237  SHA-1
+/tmp/requests/src/requests/auth.py:238  MD5
+
+Total: 9 hallazgos -> findings.json
+
+real	0m0.102s
+user	0m0.090s
+sys	0m0.005s

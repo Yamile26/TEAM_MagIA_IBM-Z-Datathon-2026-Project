@@ -1,0 +1,14 @@
+Spearman (test sintetico vs reglas): 0.983
+  importancia alg        0.963
+  importancia data_life  0.036
+  importancia internet   0.000
+  importancia migration  0.000
+
+  130.0  SHA-1      historias.py:7
+  130.0  DES        historias.py:8
+  120.0  MD5        pacientes_api.py:6
+  105.0  RC4        nginx.conf:4
+  105.0  TLS<1.2    nginx.conf:3
+   23.0  RSA        historias.py:5
+   18.0  RSA        pacientes_api.py:5
+   18.0  ECDSA/ECC  pacientes_api.py:4
