@@ -1,0 +1,24 @@
+{
+  "total": 30,
+  "primer_intento": 0,
+  "hasta_3": 0,
+  "config_final": {
+    "historias.py:5": {
+      "groups": "X25519MLKEM768:X25519",
+      "fuente": "plantilla"
+    },
+    "pacientes_api.py:5": {
+      "groups": "X25519MLKEM768:X25519",
+      "fuente": "plantilla"
+    },
+    "pacientes_api.py:4": {
+      "groups": "X25519MLKEM768:X25519",
+      "fuente": "plantilla"
+    }
+  },
+  "resumen": {
+    "facts": "8 cryptographic findings in total. 5 are broken today (DES, MD5, RC4, SHA-1, TLS<1.2). 3 rely on RSA or ECDSA, which quantum computers are expected to break. Most urgent: SHA-1 in historias.py:7.",
+    "text": "A two-sentence executive summary for a hospital IT director. 8 cryptographic findings in total. 5 are broken today (DES, MD5, RC4, SHA-1, TLS<1.2). 3 rely on RSA or ECDSA, which quantum computers are expected to break. Most urgent: SHA-1 in historias.py:7.",
+    "numbers_ok": true
+  }
+}

@@ -47,3 +47,6 @@ python3 dashboard/app.py                    # panel (o en contenedor: dashboard/
 * NIST FIPS 203 (ML-KEM) y FIPS 204 (ML-DSA)
 
 Código escrito durante el hackathon. El Hospital Regional Demo es ficticio.
+
+## Experimento: Granite con y sin ejemplos
+Mismo modelo (Granite 4.0 H 350M base), 3 activos x 10 repeticiones x 3 candidatos. Con 2 ejemplos en el prompt: 29/30 válidas al primer intento y 30/30 con validación. Sin ejemplos: 0/30, y las 30 pruebas cayeron a la plantilla. El validador (handshake TLS real) rechazó todo lo inválido. Muestra pequeña y un solo modelo: no es una comparación general de LLMs.

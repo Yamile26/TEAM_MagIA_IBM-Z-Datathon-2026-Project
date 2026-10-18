@@ -1,0 +1,179 @@
+{
+  "model": "granite-4.0-h-350m-base-be.f16.gguf",
+  "seconds": 234.3,
+  "assets": [
+    {
+      "algorithm": "RSA",
+      "location": "historias.py:5",
+      "repeats": [
+        [
+          "TLS 1.2, TLS 1.3",
+          "2048, 3072",
+          "TLS 1.3"
+        ],
+        [
+          "TLS 1.3",
+          "RSA, TLS 1.3, TLS 1.2",
+          "TLS 1.3"
+        ],
+        [
+          "3.2.840.113549.1.2.1",
+          "1",
+          "(1) TLS 1.3, (2) TLS 1.3 with key exchange, (3)"
+        ],
+        [
+          "TLS 1.3",
+          "A, B",
+          "1, 2, 3, 4, 5"
+        ],
+        [
+          "TLS 1.3, TLS 1.2",
+          "TLS 1.3",
+          "TLS 1.3, TLS 1.3-2, TLS 1.3-2.1,"
+        ],
+        [
+          "RSA",
+          "256/384/512",
+          "AES 256, TLS 1.3"
+        ],
+        [
+          "TLS 1.3, TLS 1.2, TLS 1.1, TLS 1.0",
+          "AES-256, RSA-1024, TLS-1.3, TLS-1.3, TLS-1",
+          "TLS 1.3, TLS 1.3, TLS 1.3, TLS 1.3,"
+        ],
+        [
+          "TLS 1.3, TLS 1.2, TLS 1.0, TLS 1.1,",
+          "TLS 1.3",
+          "TLS 1.3"
+        ],
+        [
+          "3",
+          "TLS 1.2, TLS 1.3 (use both), TLS 1.0",
+          "1, 1, 1, 1, 1, 1, 1, 1,"
+        ],
+        [
+          "TLS 1.3",
+          "1, 2, 3, 4, 5, 6, 7, 8,",
+          "TLS 1.3"
+        ]
+      ]
+    },
+    {
+      "algorithm": "RSA",
+      "location": "pacientes_api.py:5",
+      "repeats": [
+        [
+          "2048, 4096, 8192, 16384, 32768",
+          "TLS 1.3",
+          "2, 3, 4, 5"
+        ],
+        [
+          "AES 256, TLS 1.3, TLS 1.3",
+          "AES 256, TLS 1.3",
+          "TLS 1.3, RSA, HTTPS"
+        ],
+        [
+          "RSA, 2048-bit, TLS 1.3 (with AES-256), TLS 1.2 (",
+          "TLS 1.3, TLS 1.3 (secure), TLS 1.2 (secure)",
+          "TLS 1.3, RSA key, data kept 20 years, internet-facing"
+        ],
+        [
+          "TLS 1.3, TLS 1.3",
+          "TLS 1.3, 1.2, 1.0",
+          "(2,3,7)"
+        ],
+        [
+          "TLS 1.3",
+          "RSA, TLS 1.3",
+          "RSA (1024), TLS (1.3), TLS (1.1), TLS (1.0)"
+        ],
+        [
+          "TLS 1.3",
+          "TLS 1.3, TLS 1.2, TLS 1.0",
+          "TLS 1.1, TLS 1.2, TLS 1.3"
+        ],
+        [
+          "TLS 1.3, TLS 1.2, TLS 1.0",
+          "RSA, TLS 1.3",
+          "RSA, TLS 1.3"
+        ],
+        [
+          "TLS 1.3, TLS 1.2, TLS 1.0, TLS 1.1",
+          "TLS 1.3, TLS 1.3, TLS 1.3, TLS 1.3,",
+          "RSA group, TLS group, TLS 1.3 key exchange groups"
+        ],
+        [
+          "TLS 1.3, TLS 1.2, TLS 1.1, TLS 1.0",
+          "TLS 1.3",
+          "1,2,3,4"
+        ],
+        [
+          "RSA",
+          "2x 256, 1x 384, 1x 512, 1x 768",
+          "TLS 1.3, TLS 1.2, TLS 1.1, TLS 1.0"
+        ]
+      ]
+    },
+    {
+      "algorithm": "ECDSA/ECC",
+      "location": "pacientes_api.py:4",
+      "repeats": [
+        [
+          "2, 3, 4, 5",
+          "TLS 1.3",
+          "ECDSA, TLS 1.3, 2048-bit, 20 years, internet-facing"
+        ],
+        [
+          "ECDSA, TLS 1.3, TLS 1.2, TLS 1.1, TLS 1",
+          "TLS 1.3, TLS 1.2, TLS 1.1",
+          "TLS 1.2, TLS 1.3 (default), TLS 1.3, TLS 1."
+        ],
+        [
+          "TLS 1.3 key exchange groups",
+          "TLS 1.3, TLS 1.3, TLS 1.3",
+          "1, 2, 3, 4, 5, 6, 7, 8,"
+        ],
+        [
+          "TLS 1.3",
+          "TLS 1.3",
+          "TLS 1.3"
+        ],
+        [
+          "TLS 1.3, TLS 1.2, TLS 1.0",
+          "TLS 1.3",
+          "TLS 1.3"
+        ],
+        [
+          "TLS 1.3",
+          "TLS 1.3, TLS 1.3",
+          "1"
+        ],
+        [
+          "TLS 1.3, 3DES",
+          "ECDSA, 128-bit, AES-256, TLS 1.3",
+          "ECDSA, TLS 1.3"
+        ],
+        [
+          "TLS 1.3",
+          "TLS 1.3, TLS 1.3, TLS 1.3, TLS 1.3",
+          "TLS 1.2, TLS 1.3"
+        ],
+        [
+          "TLS 1.3, TLS 1.3, TLS 1.3, TLS 1.3,",
+          "TLS 1.3 with a key exchange group of \"ECDHE-RSA-AES256-SHA256-",
+          "ECDSA"
+        ],
+        [
+          "TLS 1.3",
+          "ECDSA, TLS_1_3, 256bit",
+          "ECDSA"
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "facts": "8 cryptographic findings in total. 5 are broken today (DES, MD5, RC4, SHA-1, TLS<1.2). 3 rely on RSA or ECDSA, which quantum computers are expected to break. Most urgent: SHA-1 in historias.py:7.",
+    "text": "A two-sentence executive summary for a hospital IT director. 8 cryptographic findings in total. 5 are broken today (DES, MD5, RC4, SHA-1, TLS<1.2). 3 rely on RSA or ECDSA, which quantum computers are expected to break. Most urgent: SHA-1 in historias.py:7.",
+    "numbers_ok": true
+  }
+}
